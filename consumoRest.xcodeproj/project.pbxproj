@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		0F47ADC9B59A9DFDFEC1BBAB /* Pods_consumoRest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D276183FBC314075FACC5F60 /* Pods_consumoRest.framework */; };
 		BCAAA0FC232A942F00C0AF86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAAA0FB232A942F00C0AF86 /* AppDelegate.swift */; };
-		BCAAA0FE232A942F00C0AF86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAAA0FD232A942F00C0AF86 /* ViewController.swift */; };
+		BCAAA0FE232A942F00C0AF86 /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAAA0FD232A942F00C0AF86 /* SongViewController.swift */; };
 		BCAAA101232A942F00C0AF86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCAAA0FF232A942F00C0AF86 /* Main.storyboard */; };
 		BCAAA104232A942F00C0AF86 /* consumoRest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCAAA102232A942F00C0AF86 /* consumoRest.xcdatamodeld */; };
 		BCAAA106232A943100C0AF86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAAA105232A943100C0AF86 /* Assets.xcassets */; };
 		BCAAA109232A943100C0AF86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCAAA107232A943100C0AF86 /* LaunchScreen.storyboard */; };
 		BCAAA114232A943100C0AF86 /* consumoRestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAAA113232A943100C0AF86 /* consumoRestTests.swift */; };
+		BCAAA123232A9D0600C0AF86 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAAA122232A9D0600C0AF86 /* APICall.swift */; };
+		BCAAA126232A9D3500C0AF86 /* SearshService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAAA125232A9D3500C0AF86 /* SearshService.swift */; };
+		BCAAA128232AA11400C0AF86 /* SongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAAA127232AA11400C0AF86 /* SongModel.swift */; };
+		BCAAA12D232ABC2F00C0AF86 /* SongPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAAA12C232ABC2F00C0AF86 /* SongPresenter.swift */; };
 		E987C110FECFC4A3391EC1C7 /* Pods_consumoRestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD6E8A3CDEE53098EFBE4CE /* Pods_consumoRestTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +40,7 @@
 		5AB4D3D370F4967DEBAA9D29 /* Pods-consumoRest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-consumoRest.release.xcconfig"; path = "Pods/Target Support Files/Pods-consumoRest/Pods-consumoRest.release.xcconfig"; sourceTree = "<group>"; };
 		BCAAA0F8232A942F00C0AF86 /* consumoRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = consumoRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCAAA0FB232A942F00C0AF86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCAAA0FD232A942F00C0AF86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCAAA0FD232A942F00C0AF86 /* SongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
 		BCAAA100232A942F00C0AF86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCAAA103232A942F00C0AF86 /* consumoRest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = consumoRest.xcdatamodel; sourceTree = "<group>"; };
 		BCAAA105232A943100C0AF86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,6 +49,10 @@
 		BCAAA10F232A943100C0AF86 /* consumoRestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = consumoRestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCAAA113232A943100C0AF86 /* consumoRestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = consumoRestTests.swift; sourceTree = "<group>"; };
 		BCAAA115232A943100C0AF86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCAAA122232A9D0600C0AF86 /* APICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
+		BCAAA125232A9D3500C0AF86 /* SearshService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearshService.swift; sourceTree = "<group>"; };
+		BCAAA127232AA11400C0AF86 /* SongModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongModel.swift; sourceTree = "<group>"; };
+		BCAAA12C232ABC2F00C0AF86 /* SongPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongPresenter.swift; sourceTree = "<group>"; };
 		D276183FBC314075FACC5F60 /* Pods_consumoRest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_consumoRest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -111,8 +119,11 @@
 		BCAAA0FA232A942F00C0AF86 /* consumoRest */ = {
 			isa = PBXGroup;
 			children = (
+				BCAAA11E232A9CA400C0AF86 /* api */,
+				BCAAA12B232ABC0200C0AF86 /* view */,
+				BCAAA121232A9CD600C0AF86 /* model */,
+				BCAAA120232A9CCA00C0AF86 /* presenter */,
 				BCAAA0FB232A942F00C0AF86 /* AppDelegate.swift */,
-				BCAAA0FD232A942F00C0AF86 /* ViewController.swift */,
 				BCAAA0FF232A942F00C0AF86 /* Main.storyboard */,
 				BCAAA105232A943100C0AF86 /* Assets.xcassets */,
 				BCAAA107232A943100C0AF86 /* LaunchScreen.storyboard */,
@@ -129,6 +140,39 @@
 				BCAAA115232A943100C0AF86 /* Info.plist */,
 			);
 			path = consumoRestTests;
+			sourceTree = "<group>";
+		};
+		BCAAA11E232A9CA400C0AF86 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				BCAAA122232A9D0600C0AF86 /* APICall.swift */,
+				BCAAA125232A9D3500C0AF86 /* SearshService.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		BCAAA120232A9CCA00C0AF86 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				BCAAA12C232ABC2F00C0AF86 /* SongPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		BCAAA121232A9CD600C0AF86 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BCAAA127232AA11400C0AF86 /* SongModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BCAAA12B232ABC0200C0AF86 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BCAAA0FD232A942F00C0AF86 /* SongViewController.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,10 +319,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-consumoRest/Pods-consumoRest-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -292,8 +338,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCAAA0FE232A942F00C0AF86 /* ViewController.swift in Sources */,
+				BCAAA128232AA11400C0AF86 /* SongModel.swift in Sources */,
+				BCAAA0FE232A942F00C0AF86 /* SongViewController.swift in Sources */,
 				BCAAA104232A942F00C0AF86 /* consumoRest.xcdatamodeld in Sources */,
+				BCAAA123232A9D0600C0AF86 /* APICall.swift in Sources */,
+				BCAAA126232A9D3500C0AF86 /* SearshService.swift in Sources */,
+				BCAAA12D232ABC2F00C0AF86 /* SongPresenter.swift in Sources */,
 				BCAAA0FC232A942F00C0AF86 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

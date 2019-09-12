@@ -9,6 +9,7 @@ target 'consumoRest' do
 
   # Pods for consumoRest
   pod 'Alamofire'
+  pod 'SwiftyJSON'
 
   target 'consumoRestTests' do
     inherit! :search_paths
